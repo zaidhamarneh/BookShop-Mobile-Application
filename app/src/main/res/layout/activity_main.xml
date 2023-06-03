@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headtext"
+        android:layout_width="407dp"
+        android:layout_height="47dp"
+        android:text="مكتبة القادمون"
+        android:textSize="100px"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="16dp"
+
+    />
+
+    <TextView
+        android:id="@+id/wisdom"
+        android:layout_width="351dp"
+        android:layout_height="312dp"
+        android:layout_marginTop="68dp"
+        android:text=" -يضيع العلم بين اثنين.. الحياء والكبر
+
+         -الناس إلى العلم أحوج منهم إلى الطعام والشراب، لأن الرجل يحتاج إلى الطعام والشراب في اليوم مرة أو مرتين، وحاجته إلى العلم بعدد أنفاسه"
+        android:textColor="#FF0000"
+        android:textSize="100px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headtext" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="101dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="44dp"
+        android:text="Insert A Book"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wisdom" />
+
+    <Button
+        android:id="@+id/query"
+        android:layout_width="101dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="124dp"
+        android:text="Query A Book"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wisdom" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="96dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="60dp"
+        android:text="Delete A Book"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert"
+        app:layout_constraintVertical_bias="0.322" />
+</androidx.constraintlayout.widget.ConstraintLayout>

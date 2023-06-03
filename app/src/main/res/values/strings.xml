@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BOOKSTORE</string>
+    <string name="author_default_text">Default Author</string>
+    <string name="book_default_text">Default Book</string>
+    <string name="price_default_text">Default Price</string>
+
+</resources>
